@@ -1,21 +1,52 @@
 body{
     color: black;
-    background-color: antiquewhite;
+    background-color: white;
     margin: 10px;
-    padding: 20px;
-    border: 10px solid black
+    padding: 10px;
+    border: 1px solid black;
+    background: beige;
+
 }
 
-header {
+p{
+    line-height: 1.8;
+}
+header,footer {
     text-align: center;
+    border: 1px solid black;
+    background-image: url("signature.jpg");
 }
 
 nav li {
-    text-align: center;
-    list-style-type: none;
     display: inline-block;
     padding: 10px;
     font-size: larger;
     font-weight: 700;
+    text-decoration: none;
+
+}
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
 }
 
+
+a:hover{
+    background-color: skyblue;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+a:visited{
+    color: crimson;
+}
+
+a:active{
+    box-shadow: lightcoral;
+}
+
+li a{
+    text-decoration: none;
+}
